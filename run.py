@@ -1,14 +1,3 @@
-"""一键运行入口：环境体检 -> （可选）跑流水线 -> 启动看板。
-
-用法（在项目根目录执行，任何 python 均可，会自动切到 .venv）：
-
-    python run.py                  # 只启动看板（用已有的分析结果）
-    python run.py --pipeline       # 先重跑完整流水线，再启动看板
-    python run.py --pipeline --skip-topics   # 重跑但跳过 LDA（省约 2.5 分钟）
-    python run.py --check          # 只做环境与产物体检，不启动
-    python run.py --port 8502      # 指定端口
-"""
-
 from __future__ import annotations
 
 import argparse
