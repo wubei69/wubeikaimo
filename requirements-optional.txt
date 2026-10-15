@@ -1,0 +1,5 @@
+snownlp>=0.12.3
+transformers>=4.45
+torch>=2.4
+sentence-transformers>=3.0
+bertopic>=0.16

@@ -1,0 +1,9 @@
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+scikit-learn>=1.5,<2.0
+jieba>=0.42.1
+mlxtend>=0.23.1
+plotly>=5.24
+streamlit>=1.40
+joblib>=1.4
+pytest>=8.0

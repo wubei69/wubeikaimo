@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+outputs/figures/*
+outputs/reports/*
+outputs/tables/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/tables/.gitkeep
